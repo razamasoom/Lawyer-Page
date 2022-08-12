@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2B2922;
+}
+
+body {
+
+    background-size: cover;
+background-repeat: no-repeat;
+   background-position: 0  175px;
+    
+    
+}
+nav{
+display: flex;
+background-color: #2B2922;
+padding: 20px 10px 0px 100px ;
+}
+main {
+    display: flex;
+    background-color: #2B2922;
+    padding: 60px 90px;
+}
+.logo{
+    flex: 1;
+}
+.list{
+    display: flex;
+    flex: 2;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.list-item{
+    color: #918233;
+    font-size: 20px;
+    margin: 15px;
+
+}
+.list-item:hover{
+    color: #ffffff;
+    transition: 300ms ease;
+}
+.btn{
+    flex: 1 ;
+}
+.btn button{
+    background-color:#2B2922;
+    color:#918233;
+    border: 1px solid #918233;
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 9px;
+}
+.big-font{
+    flex:2 ;
+}
+.big-font h1 {
+    margin-left: 30px;
+    font-size: 60px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+font-weight: 900;}
+
+    .small-font{
+        flex: 3;
+    }
+    p{
+        font-size: 25px;
+        color: #ffff;
+        text-align: left;
+        padding-right: 50px;
+        margin-left: 200px;
+
+    }
+/* .justice-image{
+    align-self: center;
+} */
+.justice-image{
+    height: fit-content;
+}
+
+
+.justice-image > img{
+    /* width: 10em; */
+    /* background-size: contain; */
+    width: 100%;
+    margin: 0;
+    padDING: 0;
+}
+
+.caurosel{
+    height: 100%;
+    background-color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--bgc);
+    /* gap: 2%; */
+    width: 100%;
+    position: relative;
+    
+}
+
+div[class="caurosel"] > span{
+    padding: 2.7% 3.3%;
+    /* background: rgb(248, 0, 0); */
+    border-radius: 0;
+    margin: 0;
+    /* background-color: rgb(49, 36, 36); */
+    text-align: center;
+}
+
+
+div[class="caurosel"] > span > span{
+    /* border-radius: ; */
+    /* border: rgb(59, 48, 48) 2px solid; */
+    padding: 30% 80%;
+    margin: 0;
+    border-radius: 100%;
+    position: relative;
+    right: 50%;
+    
+}
+
+span> .inside1{
+    color: #dcb85f;
+    border: #dcb85f 2px solid;
+    margin: 0;
+    /* margin-right: 10px; */
+    
+}
+
+div[class="caurosel"] > .outside1{
+    background-color: #474332;
+    color: #474332;
+    /* padding-right: 5px; */
+    margin: 0;
+}
+
+span > .inside2{
+    color: #ffffff ;
+    border:  2px solid #ffffff;
+    margin: 0;
+    /* margin-right: 10px; */
+    
+}
+
+div[class="caurosel"] > .outside2{
+    margin: 0;
+    background-color: #dcb85f;
+    /* color: #474332; */
+    /* padding-right: 5px; */
+}
